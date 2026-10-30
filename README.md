@@ -275,7 +275,7 @@ Example: `python -m src.pipeline --top-n 25`.
 
 - `Model not found at models/sentiment_model.pkl`: run step 1 first.
 - The dashboard shows "Missing: ...": run steps 1 and 2 first.
-- `python3.12: command not found`: install Python 3.12 (see "What you need").
+- The shell can't find `python3.12`: install Python 3.12 (see "What you need").
 - Port 8501 already in use: `streamlit run dashboard/app.py --server.port 8502`.
 
 ## Data source and license
